@@ -9,7 +9,7 @@ int main(void) {
   
   while (saldo > 0) {
     reaj = (saldo*1)/100;
-    printf("O saldo com o reajuste ficou no valor de %.2f\n", saldo +          reaj); 
+    printf("O saldo com o reajuste ficou no valor de %.2f\n", saldo + reaj); 
     printf("Digite o saldo:");
     scanf("%f", &saldo);
   }
